@@ -1,6 +1,16 @@
+import os
+import pygame
 import pytest
 from game_entities import Player, Enemy, Obstacle, create_obstacles
 from main import Game
+
+#disable audio if running in a headless environment
+if os.environ.get('CI') == 'true':
+    os.environ['SDL_AUDIODRIVER'] = 'dummy'
+    pygame.mixer.pre_init(44100, -16, 2, 1024)
+    pygame.mixer.init()
+else:
+    pygame.mixer.init()
 
 #test creating obstacles
 def test_create_obstacles():
