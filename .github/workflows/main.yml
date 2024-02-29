@@ -13,6 +13,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      SDL_VIDEODRIVER: dummy
+      SDL_AUDIODRIVER: dummy
 
     steps:
     - uses: actions/checkout@v3
@@ -25,11 +28,6 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-
-    - name: Disable audio for headless environment
-      if: matrix.os == 'ubuntu-latest'
-      run: |
-        export CI=true
         
     - name: Test with pytest
       run: |
