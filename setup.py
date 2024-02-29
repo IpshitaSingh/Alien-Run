@@ -46,5 +46,10 @@ setup(
         'urllib3==2.1.0',
         'Werkzeug==3.0.1',
         'wheel==0.42.0',
-    ]
+    ],
+    entry_points={
+        'console_scripts': [
+            'alien-run = main:main', 
+        ],
+    },
 )
