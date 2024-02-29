@@ -8,6 +8,9 @@ by Ipshita Singh - Matriculation No.: 3121217
 
 Alien Run is a 2D game developed using Pygame, where the player controls a character, referred to as _Alien_, and navigates through obstacles while avoiding the enemy.
 
+
+<img src="https://raw.githubusercontent.com/IpshitaSingh/Alien-Run/main/assets/title.png" height="600" width="auto"> 
+
 ## Table of Contents
 
 - [Features](#features)
@@ -36,6 +39,21 @@ Alien Run is a 2D game developed using Pygame, where the player controls a chara
 ## UML Diagrams
 
 ## Installation
+1. Step 1: Clone the repository
+
+```
+git clone https://github.com/IpshitaSingh/Alien-Run.git
+```
+
+2. Step 2: Navigate to the project directory
+```
+cd Alien-Run
+```
+
+3. Step 3: Run the application
+```
+python main.py
+```
 
 ## CICD Pipeline
 The CI/CD pipeline is set up using GitHub Actions. On each push to the main branch, the pipeline performs the following steps:
