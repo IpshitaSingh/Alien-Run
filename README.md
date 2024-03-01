@@ -9,14 +9,14 @@ by Ipshita Singh - Matriculation No.: 3121217
 Alien Run is a 2D game developed using Pygame, where the player controls a character, referred to as _Alien_, and navigates through obstacles while avoiding the enemy.
 
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/Alien-Run/main/assets/title.png" height="600" width="auto"> 
+<img src="https://github.com/IpshitaSingh/Alien-Run/blob/main/assets/title.png" height="550" width="auto"> 
 
 ## Table of Contents
 
 - [Features](#features)
 - [UML Diagrams](#uml-diagrams)
 - [Installation](#installation)
-- [CI/CD Pipeline](#cicd-pipline)
+- [CI/CD Pipeline](#cicd-pipeline)
 - [Tests](#tests)
 
 ## Features
@@ -37,6 +37,16 @@ Alien Run is a 2D game developed using Pygame, where the player controls a chara
 6. Sound Effects: Immersive sound effects, including background music and collision sounds, enhance the gaming experience, providing the player with auditory feedback as they play.
 
 ## UML Diagrams
+- Classes
+<img src="https://github.com/IpshitaSingh/Alien-Run/blob/main/assets/class_diag.png" height="500" width="auto">
+
+- Sequence
+<img src="https://github.com/IpshitaSingh/Alien-Run/blob/main/assets/sequence_diag.jpg" height="390" width="auto">
+
+Note: Game entities refer to _Alien_, enemy and obstacles.
+
+- State
+<img src="https://github.com/IpshitaSingh/Alien-Run/blob/main/assets/state_diag.png" height="350" width="auto">
 
 ## Installation
 1. Step 1: Clone the repository
@@ -71,3 +81,8 @@ This test checks if obstacle creation is performed as intended.
 This test checks if the collisions between _Alien_ and obstacles or enemy is detected.
 ### Third Test: Score
 This test checks if the score updation is functioning as intended, based on the time survived.
+
+Tests can be run with the following command:
+```
+pytest
+```
