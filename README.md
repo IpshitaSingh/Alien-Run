@@ -10,6 +10,7 @@ Alien Run is a 2D game developed using Pygame, where the player controls a chara
 
 
 <img src="https://github.com/IpshitaSingh/Alien-Run/blob/main/assets/title.png" height="550" width="auto"> 
+Source: Screenshot taken by self
 
 ## Table of Contents
 
@@ -18,6 +19,7 @@ Alien Run is a 2D game developed using Pygame, where the player controls a chara
 - [Installation](#installation)
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Tests](#tests)
+- [Asset Citations](#asset-citations)
 
 ## Features
 
@@ -86,3 +88,14 @@ Tests can be run with the following command:
 ```
 pytest
 ```
+
+## Asset Citations
+### Graphics
+- Background image - Source: [Freepik](https://www.freepik.com/free-vector/pixel-art-mystical-background_29019077.htm#query=pixel%20art%20background&position=2&from_view=keyword&track=ais&uuid=e3efdc2b-e9b4-4e70-b110-7ac6f8a552f1), free for use under *Free License* as stated on the website
+- Main Character (Alien) Sprite - Source: [Kenney](https://www.kenney.nl/assets/platformer-art-extended-enemies), free for use under *Creative Commons CC0* license as stated on the website
+- Enemy Character (Ghost) Sprite - Source: [Clipart Library](https://clipart-library.com/clip-art/cute-ghost-transparent-7.htm), free for use under *Personal Use* license as stated on the website
+- Obstacle Sprite - Source: [Kenney](https://www.kenney.nl/assets/platformer-art-deluxe), free for use under *Creative Commons CC0* license as stated on the website
+
+### Sounds
+- Background Music - Source: [Pixabay](https://pixabay.com/sound-effects/funk-lead-loop-71557/), free for use under *Pixabay Content License* as stated on the website
+- Collision Sound Effect - Source: [Pixabay](https://pixabay.com/sound-effects/box-falling-down-97295/), free for use under *Pixabay Content License* as stated on the website
